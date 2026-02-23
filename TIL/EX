@@ -1,0 +1,11 @@
+## 오늘 한 것
+Enhanced Input 설정
+
+## 문제
+Add Mapping Context 안 보임
+
+## 해결
+플러그인 활성화 후 BeginPlay에서 추가
+
+## 체크
+이동 정상
