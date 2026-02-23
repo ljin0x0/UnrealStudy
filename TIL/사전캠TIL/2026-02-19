@@ -48,10 +48,7 @@
 - Pawn / Character → 조종 가능한 객체
 - UI → 화면 인터페이스
 
-
-
-
-## 추가 개념
+![프레임워크 클래스 관계](images/프레임워크 클래스 관계.png)
 
 - Possess → 컨트롤러가 Pawn을 소유
 - HUD → UI 표시
@@ -118,8 +115,6 @@
 - Streaming Method Blueprint or Always Loded 변경 가능
 - LoadStreamLevel(by name)로 레벨 로드 가능
 
----
-
 ## 레벨 이동 실습
 
 Event BeginPlay → Delay(3초) → Open Level(by Name) level name:ThirdPersonMaps
@@ -128,22 +123,31 @@ Event BeginPlay → Delay(3초) → Open Level(by Name) level name:ThirdPersonMa
 
 ---
 
-# 프로젝트 생성 & 에디터 구조
+# 퀘스트
 
-## 프로젝트 생성 흐름
-- Games → Third Person 선택
-- 경로 / 이름 설정 후 생성
+## 학습 내용 요약
 
-## 에디터 핵심 요소
+### 프로젝트 생성 단계 주요 흐름
+- Game → Third Person 선택
+- 생성 경로 / 이름 설정 후 생성
+
+### 에디터 핵심 요소 3가지
 - Viewport
 - Outliner
 - Details
 
----
+### Actor 의미와 역할
+- 월드에 배치되는 오브젝트의 부모 클래스
 
-## Actor 정의
+###실습
 
-- 월드에 배치되는 모든 오브젝트 부모 클래스
+1.Unreal Engine 5에서 "Blank" 또는 "Third Person" 템플릿으로 새 프로젝트를 생성
+
+![실습1](images/1-5퀘스트1.png)
+
+2."Viewport"에서 기본 오브젝트를 배치
+
+![실습2](images/1-5퀘스트2.png)
 
 ---
 
@@ -151,6 +155,9 @@ Event BeginPlay → Delay(3초) → Open Level(by Name) level name:ThirdPersonMa
 - 필요한 에셋 다운로드 가능
 
 ---
+
+## Actor 정의
+- 월드에 배치되는 모든 오브젝트 부모 클래스
 
 # Actor 종류
 
