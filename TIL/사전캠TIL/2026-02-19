@@ -48,7 +48,7 @@
 - Pawn / Character → 조종 가능한 객체
 - UI → 화면 인터페이스
 
-![PrameWork](images/프레임워크_클래스_관계.png)
+![PrameWork](../images/프레임워크_클래스_관계.png)
 
 - Possess → 컨트롤러가 Pawn을 소유
 - HUD → UI 표시
@@ -139,7 +139,7 @@ Event BeginPlay → Delay(3초) → Open Level(by Name) level name:ThirdPersonMa
 ### Actor 의미와 역할
 - 월드에 배치되는 오브젝트의 부모 클래스
 
-###실습
+### 실습
 
 1.Unreal Engine 5에서 "Blank" 또는 "Third Person" 템플릿으로 새 프로젝트를 생성
 
