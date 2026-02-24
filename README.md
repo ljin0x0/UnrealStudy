@@ -11,6 +11,8 @@ Unreal Engine 공부 기록 저장소입니다.
 
 - 사전캠TIL : 사전 강의 정리
 - 본캠프TIL : 본 과정 정리
+  - BluePrint : 블루프린트 강의 정리
+  - C++ : C++ 강의 정 
 - images : TIL에 사용한 이미지
 
 ---
